@@ -17,7 +17,7 @@ class CreateBeritasTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('cover');
-            $table->string('isi');
+            $table->text('isi');
             $table->timestamps();
         });
     }

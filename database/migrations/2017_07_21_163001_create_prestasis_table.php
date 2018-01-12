@@ -17,7 +17,7 @@ class CreatePrestasisTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('cover')->nullable();
-            $table->string('isi')->nullable();
+            $table->text('isi')->nullable();
             $table->timestamps();
 
 

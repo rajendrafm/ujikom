@@ -160,57 +160,7 @@
             <!-- Achievement Section Ends -->
 
             <!-- Box Section Begins -->
-            <section id="box" class="pad-top-120 pad-bottom-120 parallax bg-white btm-brdr box">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                            <div class="outBox">
-                                <div class="topOut">
-                                    <h2>THINK <br/>OUT <br/>Side <br/>THe</h2>
-                                </div>
-                                <div class="btmOut"><h2>BOX</h2></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                            <div class="progressBlock">
-                                <div class="progressBar">
-                                    <label class="progress-head">HTML5 / CSS3</label>
-                                    <div class="box-progress-bar" data-progress="80">
-                                        <span class="bar"></span>
-                                    </div>
-                                </div>
-                                <div class="progressBar">
-                                    <label class="progress-head">UX/UI</label>
-                                    <div class="box-progress-bar" data-progress="85">
-                                        <span class="bar"></span>
-                                    </div>
-                                </div>
-                                <div class="progressBar">
-                                    <label class="progress-head">Branding</label>
-                                    <div class="box-progress-bar" data-progress="70">
-                                        <span class="bar"></span>
-                                    </div>
-                                </div>
-                                <div class="progressBar">
-                                    <label class="progress-head">Web Development</label>
-                                    <div class="box-progress-bar" data-progress="65">
-                                        <span class="bar"></span>
-                                    </div>
-                                </div>
-                                <div class="progressBar">
-                                    <label class="progress-head">SEO</label>
-                                    <div class="box-progress-bar" data-progress="85">
-                                        <span class="bar"></span>
-                                    </div>
-                                </div>
-                                <div class="progressText">
-                                    <p> Interface design is what is between the machine and the human. I think it’s time to have a Juice and kick some ass. Interface design is what is between the machine and the human. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+ 
             <!-- Box Section Ends -->
 
             <!-- Prestasi Section Begins -->
@@ -220,8 +170,8 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custparallax">
                         <header class="customerBox pad-top-120 pad-bottom-120 wow animated fadeInUp" data-wow-delay="0.5s">
                             <div class="custTest">
-                                <div class="custTitle"><h2> OUR <br/>customer <br/>SAY`S </h2></div>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla  ariatur. Excepteur sint occaecat cupidatat officia deserunt mollit anim id est laborum. </p>
+                                <div class="custTitle"><h2> SMK <br/>Assalaam <br/>Bandung </h2></div>
+                                <p> SMK Assalaam adalah bagian dari Yayasan Assalaam yang mempersiapkan siswa untuk siap kerja dengan keterampilan & profesional di bidang industri (sekolah berbasis industri) dan kewirausahaan. </p>
                             </div>
                         </header>
                         </div>
@@ -344,10 +294,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
                             <div class="logoSlide owl-carousel">
-                                <div class="item"><img src="images/logoslider-1.png" alt="image" /></div>
-                                <div class="item"><img src="images/logoslider-2.png" alt="image" /></div>
-                                <div class="item"><img src="images/logoslider-3.png" alt="image" /></div>
-                                <div class="item"><img src="images/logoslider-4.png" alt="image" /></div>
+
                             </div>
                         </div>
                     </div>
@@ -386,17 +333,17 @@
                 <div class="container">
                     <div class="row">
                         <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                            <h2 class="secTitle"> Get in Touch </h2>
-                            <h6 class="secCaption pad-bottom-120"> Prepare for the future project expenses and get everything needed. </h6>                         
+                            <h2 class="secTitle"> Contact Us  </h2>
+                            <h6 class="secCaption pad-bottom-120">  </h6>                         
                         </header>
                         <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
                             <div class="address">
                                 <label>ADDRESS</label>
-                                <h6> 121 King St, Melbourne VIC 3000, Australia </h6>
+                                <h6>  Jl. Situ Tarate, Cibaduyut, Dayeuhkolot, Kota Bandung, Jawa Barat 40265 </h6>
                                 <label>Call Us</label>
-                                <h6> +91 98 76 543210 </h6>
+                                <h6> 022 5420-220 </h6>
                                 <label>EMAIL</label>
-                                <h6> <a href="javascript:void(0);"> support@agency.com </a> </h6>
+                                <h6> <a href="javascript:void(0);"> info@smkassalaambandung.sch.id </a> </h6>
                             </div>
                         </article>
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
@@ -443,10 +390,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow animated fadeInUp visible-lg visible-md visible-sm hidden-xs" data-wow-delay="0.5s">
-                            <h6 class="copyright"> &copy; 2016 Agency is powered by <a href="https://store.multidots.com/" target="_blank">DotStore.</a> </h6>
+                            <h6 class="copyright"> &copy;  2017 Assalaam Studio Developed by <a href="/" target="_blank">Rpl</a> </h6>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padding wow animated fadeInUp" data-wow-delay="0.5s">
-                            <div class="foot_middle"> <a href="javascript:void(0);"> <img src="images/logo.png" alt="image" /> </a> </div>
+                            <div class="foot_middle"> 
+                                <a href="javascript:void(0);"> <img src="images/losago.png" alt="" /> </a> </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow animated fadeInUp" data-wow-delay="0.5s">
                             <ul class="socialLinks">
@@ -458,7 +406,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow animated fadeInUp hidden-lg hidden-md hidden-sm visible-xs " data-wow-delay="0.5s">
-                            <h6 class="copyright"> &copy; 2016 Agency is powered by <a href="https://store.multidots.com/" target="_blank">DotStore.</a> </h6>
+                            <h6 class="copyright"> &copy; 2017 Assalaam Studio Developed by <a href="/" target="_blank">Rpl</a> </h6>
                         </div>
                     </div>
                 </div>

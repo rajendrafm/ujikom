@@ -1,5 +1,5 @@
 <?php
-
+use App\kurikulum;
 use Illuminate\Database\Seeder;
 
 class kurikulumsTableSeeder extends Seeder
@@ -11,6 +11,8 @@ class kurikulumsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $kurikulum= kurikulum::create(['cover'=>'Phyjti.jpg','nama'=>'dsa','jabatan'=>'comntioj']);
+        $kurikulum= kurikulum::create(['cover'=>'Phyjti.jpg','nama'=>'dsa','jabatan'=>'comntioj']);
+        $kurikulum= kurikulum::create(['cover'=>'Phyjti.jpg','nama'=>'dsa','jabatan'=>'comntioj']);
     }
 }
