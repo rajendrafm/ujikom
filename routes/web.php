@@ -15,7 +15,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Admin
 Auth::routes();
 
-Route::group(['prefix'=>'admin','middleware'=>['auth']], function() {
+Route::group(['prefix'=>'adm','middleware'=>['auth']], function() {
 	Route::resource('prestasi','prestasiController');
     Route::resource('alumni','alumniController');
     Route::resource('berita','beritaController');
@@ -23,18 +23,8 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function() {
     Route::resource('contact','contactController');
     Route::resource('testing','contactController');
 });
-//user
-Route::get('/prestasi','prestasiController@user');
-Route::get('/alumni','alumniController@user');
 
-Route::get('/berita', function () {
-    return view('berita.berita');
-});
-Route::get('/kurikulum', function () {
-    return view('kurikulum.kurikulum');
-});
-Route::get('/contact', function () {
-    return view('contact.contact');
-});
     Route::resource('/','GuesController');
+      Route::get('/prestasi','GuesController@prestasi');
+      Route::get('/berita','GuesController@service');
 //Testing

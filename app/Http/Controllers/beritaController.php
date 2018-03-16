@@ -62,7 +62,7 @@ class beritaController extends Controller
     public function show($id)
     {
         $berita=berita::findOrFail($id);
-        return view ('berita.show', compact('berita'));
+        return view ('shwberita', compact('berita'));
     }
 
     /**

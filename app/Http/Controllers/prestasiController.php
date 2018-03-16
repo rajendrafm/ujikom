@@ -62,7 +62,7 @@ class prestasiController extends Controller
     public function show($id)
     {
         $prestasi=prestasi::findOrFail($id);
-        return view ('prestasi.show', compact('prestasi'));
+        return view ('shwprestasi', compact('prestasi'));
     }
 
     /**

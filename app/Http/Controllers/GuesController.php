@@ -24,13 +24,23 @@ class GuesController extends Controller
     {
         $alumni = alumni::all();
         $kurikulum = kurikulum::all();
-        $berita = berita::all();
-        $prestasi = prestasi::all();
-        return view('index',compact('alumni','kurikulum','berita','prestasi'));
+        return view('index',compact('alumni','kurikulum'));
     }
 
 
 
+    public function service()
+    {
+        $berita = berita::all();
+        return view('service',compact('berita'));
+    }
+
+
+    public function prestasi()
+    {
+        $prestasi = prestasi::all();
+        return view('prestasi',compact('prestasi'));
+    }
 
 
 
