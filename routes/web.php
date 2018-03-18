@@ -20,7 +20,6 @@ Route::group(['prefix'=>'adm','middleware'=>['auth']], function() {
     Route::resource('alumni','alumniController');
     Route::resource('berita','beritaController');
     Route::resource('kurikulum','kurikulumController');
-    Route::resource('contact','contactController');
     Route::resource('testing','contactController');
 });
 
@@ -28,3 +27,8 @@ Route::group(['prefix'=>'adm','middleware'=>['auth']], function() {
       Route::get('/prestasi','GuesController@prestasi');
       Route::get('/berita','GuesController@service');
 //Testing
+Route::get('/chat','GuesController@chat');
+
+Route::group(['middleware'=>['api', 'cors']],function(){
+		Route::get('/listdata','ApiController@listdata');
+});

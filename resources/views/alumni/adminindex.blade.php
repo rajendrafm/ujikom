@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('alumni.asmin')
 @section('content')
 <div class="container">
     <div class="row">
         <center><h1>Data Alumni</h1></center>
         <div class="panel panel-primary">
             <div class="panel-heading">Data Alumni
-            <div class="panel-title pull-right"><a href="/admin/alumni/create">Tambah Data</a></div></div>
+            <div class="panel-title pull-right"><a href="/adm/alumni/create">Tambah Data</a></div></div>
 
          <div class="panel-body">
             <table class="table">

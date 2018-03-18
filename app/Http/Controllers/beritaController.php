@@ -50,7 +50,7 @@ class beritaController extends Controller
                 $berita->cover = $filename;
         }
         $berita->save();
-        return redirect('/admin/berita');
+        return redirect('/adm/berita');
     }
 
     /**
@@ -100,7 +100,7 @@ class beritaController extends Controller
                 $berita->cover = $filename;
         }
         $berita->save();
-        return redirect('/admin/berita');
+        return redirect('/adm/berita');
     }
 
     /**
@@ -113,6 +113,6 @@ class beritaController extends Controller
     {
         berita::destroy($id);
 
-        return redirect('/admin/berita');
+        return redirect('/adm/berita');
     }
 }

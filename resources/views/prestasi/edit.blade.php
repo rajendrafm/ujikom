@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.index')
 @section('content')
 <div class="container">
     <div class="row">
@@ -20,7 +20,7 @@
 		<div class="form-group">
 				<label class="control-label">Cover</label><br>
 				<img src="{{asset('/img/'.$prestasi->cover)}}" class="img-rounded">
-				<input type="file" name="d" class="form-control" required="">
+				<input value="{{asset('/img/'.$prestasi->cover)}}" type="file" name="d" class="form-control" >
 			</div>
 		 <div class="form-group">
 			<label class="control-label">Isi</label>

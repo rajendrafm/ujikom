@@ -52,7 +52,7 @@ class kurikulumController extends Controller
                 $kurikulum->cover = $filename;
         }
         $kurikulum->save();
-        return redirect('/admin/kurikulum');
+        return redirect('/adm/kurikulum');
     }
 
     /**
@@ -102,7 +102,7 @@ class kurikulumController extends Controller
                 $kurikulum->cover = $filename;
         }
         $kurikulum->save();
-        return redirect('/admin/kurikulum');
+        return redirect('/adm/kurikulum');
     }
 
     /**
@@ -115,6 +115,6 @@ class kurikulumController extends Controller
     {
          kurikulum::destroy($id);
 
-        return redirect('/admin/kurikulum');
+        return redirect('/adm/kurikulum');
     }
 }

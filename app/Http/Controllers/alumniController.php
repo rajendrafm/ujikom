@@ -51,7 +51,7 @@ class alumniController extends Controller
                 $alumni->cover = $filename;
         }
         $alumni->save();
-        return redirect('/admin/alumni');
+        return redirect('/adm/alumni');
 
 
     }
@@ -103,7 +103,7 @@ class alumniController extends Controller
                 $alumni->cover = $filename;
         }
         $alumni->save();
-        return redirect('/admin/alumni');
+        return redirect('/adm/alumni');
     }
 
     /**
@@ -116,7 +116,7 @@ class alumniController extends Controller
     {
          alumni::destroy($id);
 
-        return redirect('/admin/alumni');
+        return redirect('/adm/alumni');
     }
     public function user()
     {

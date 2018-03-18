@@ -19,6 +19,11 @@ class GuesController extends Controller
      */
 
 
+    public function chat()
+    {
+        return view('welcome');
+    }
+
 
     public function index()
     {

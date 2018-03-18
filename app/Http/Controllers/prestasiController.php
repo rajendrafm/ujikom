@@ -50,7 +50,7 @@ class prestasiController extends Controller
                 $prestasi->cover = $filename;
         }
         $prestasi->save();
-        return redirect('/admin/prestasi');
+        return redirect('/adm/prestasi');
     }
 
     /**
@@ -100,7 +100,7 @@ class prestasiController extends Controller
                 $prestasi->cover = $filename;
         }
         $prestasi->save();
-        return redirect('/admin/prestasi');
+        return redirect('/adm/prestasi');
     }
 
     /**
@@ -112,7 +112,7 @@ class prestasiController extends Controller
     public function destroy($id)
     {
        prestasi::destroy($id);
-        return redirect('/admin/prestasi');
+        return redirect('/adm/prestasi');
     }
 
     public function user()

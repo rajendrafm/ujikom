@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('kurikulum.ayeu')
 @section('content')
 <div class="container">
     <div class="row">
         <center><h1>Data Kurikulum</h1></center>
         <div class="panel panel-primary">
             <div class="panel-heading">Data Kurikulum
-            <div class="panel-title pull-right"><a href="/admin/kurikulum/create">Tambah Data</a></div></div>
+            <div class="panel-title pull-right"><a href="/adm/kurikulum/create">Tambah Data</a></div></div>
 
          <div class="panel-body">
             <table class="table">

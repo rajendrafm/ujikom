@@ -1,15 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.index')
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-primary">
-                <div class="panel-heading">Hallo</div>
-                <div class="panel-body">
-                    Selamat Datang Di Larapus
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+      <iframe align="center" frameborder="yes" height="709px" name="frame1" scrolling="auto" src="https://dashboard.tawk.to/#/chat" style="border: 0px solid;" width="1250px"></iframe> 
 @endsection
